@@ -5,7 +5,6 @@ Meu portfólio pessoal como desenvolvedor Full Stack.
 ## Stack
 
 - HTML5, CSS3
-- JavaScript
 - Google Fonts (Space Grotesk, Inter)
 - Font Awesome
 
