@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Lucas Santos - Desenvolvedor Front-end">
-    <title>Lucas Santos | Desenvolvedor Front-end</title>
+    <meta name="description" content="Lucas Santos - Desenvolvedor Full Stack">
+    <title>Lucas Santos | Desenvolvedor Full Stack</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -31,8 +31,8 @@
         <section id="home" class="hero">
             <div class="container hero-content">
                 <span class="greeting">Olá, eu sou o Lucas 👋</span>
-                <h1>Desenvolvedor <span class="highlight">Front-end</span> focado em criar experiências digitais.</h1>
-                <p>Transformo design e código em interfaces modernas, responsivas e performáticas.</p>
+                <h1>Desenvolvedor <span class="highlight">Full Stack</span> construindo aplicações completas.</h1>
+                <p>Do banco de dados à interface — crio soluções web de ponta a ponta.</p>
                 <div class="hero-btns">
                     <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
                     <a href="https://github.com/Lucassgsantos" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
@@ -42,25 +42,104 @@
 
         <section id="projetos" class="projects section">
             <div class="container">
-                <h2 class="section-title">Meus Projetos Recentes</h2>
-                
+                <h2 class="section-title">Projetos</h2>
+
                 <div class="projects-grid">
-                    
+
+                    <article class="project-card featured">
+                        <div class="card-image" style="background-color: #1e3a5f;">
+                            <i class="fa-solid fa-map-location-dot fa-3x" style="color: #38bdf8;"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Full Stack</span>
+                            <h3>AcessaMapa</h3>
+                            <p>Mapa colaborativo de acessibilidade urbana. Usuários cadastram locais, avaliam recursos e filtram por categoria.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                                <span>Leaflet</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://github.com/lucassgsantos/mapa-acessibilidade" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card featured">
+                        <div class="card-image" style="background-color: #1a1a2e;">
+                            <i class="fa-solid fa-cart-shopping fa-3x" style="color: #a78bfa;"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Full Stack</span>
+                            <h3>E-commerce</h3>
+                            <p>Loja virtual completa com carrinho, autenticação, painel admin e integração com banco de dados.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://github.com/lucassgsantos/ecommerce" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card featured">
+                        <div class="card-image" style="background-color: #0f2027;">
+                            <i class="fa-solid fa-list-check fa-3x" style="color: #34d399;"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Full Stack</span>
+                            <h3>Task Management</h3>
+                            <p>Gerenciador de tarefas com drag & drop, filtros por status e persistência de dados.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://github.com/lucassgsantos/task-management" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
                     <article class="project-card">
-                        <div class="card-image" style="background-color: #0f172a; border-bottom: 1px solid #1e293b;">
+                        <div class="card-image" style="background-color: #0f172a;">
+                            <i class="fa-solid fa-utensils fa-3x" style="color: #fb923c;"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Receitas App</h3>
+                            <p>App de receitas com busca, favoritos e integração com API externa de culinária.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>API REST</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://github.com/lucassgsantos/receitas-app" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="card-image" style="background-color: #0f172a;">
                             <i class="fa-brands fa-react fa-3x" style="color: #38bdf8;"></i>
                         </div>
                         <div class="card-content">
                             <h3>React TS Pricing</h3>
-                            <p>Componente de precificação moderno com alternância de planos, destaque visual e tipagem forte.</p>
+                            <p>Componente de precificação com alternância de planos e tipagem forte.</p>
                             <div class="tech-stack">
-                                <span style="background: rgba(56, 189, 248, 0.1); color: #38bdf8;">React</span>
+                                <span>React</span>
                                 <span>TypeScript</span>
                                 <span>Tailwind</span>
                             </div>
                             <div class="card-links">
                                 <a href="https://github.com/lucassgsantos/react-ts-pricing" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                                <a href="https://react-ts-pricing.vercel.app" target="_blank" style="margin-left: 1rem;">Ver Online <i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="https://react-ts-pricing.vercel.app" target="_blank" style="margin-left: 1rem;">Demo <i class="fa-solid fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </article>
@@ -71,72 +150,14 @@
                         </div>
                         <div class="card-content">
                             <h3>NBA Store BR</h3>
-                            <p>E-commerce completo de artigos esportivos com grid de produtos e páginas institucionais.</p>
+                            <p>E-commerce de artigos esportivos com grid de produtos responsivo.</p>
                             <div class="tech-stack">
                                 <span>HTML5</span>
                                 <span>CSS Grid</span>
-                                <span>Responsivo</span>
                             </div>
                             <div class="card-links">
                                 <a href="https://github.com/Lucassgsantos/nba-store-br" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                                <a href="https://lucassgsantos.github.io/nba-store-br/" target="_blank" style="margin-left: 1rem;">Ver Online <i class="fa-solid fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="card-image" style="background-color: #0c1014;">
-                            <i class="fa-solid fa-server fa-3x" style="color: #cbe300;"></i>
-                        </div>
-                        <div class="card-content">
-                            <h3>MyServer Hosting</h3>
-                            <p>Landing page de alta conversão para serviços de hospedagem com tabelas de preços interativas.</p>
-                            <div class="tech-stack">
-                                <span>UI Design</span>
-                                <span>CSS Variables</span>
-                                <span>Flexbox</span>
-                            </div>
-                            <div class="card-links">
-                                <a href="https://github.com/Lucassgsantos/myserver-hosting-page" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                                <a href="https://lucassgsantos.github.io/myserver-hosting-page/" target="_blank" style="margin-left: 1rem;">Ver Online <i class="fa-solid fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="card-image" style="background-color: #2563eb;">
-                            <i class="fa-solid fa-globe fa-3x" style="color: white;"></i>
-                        </div>
-                        <div class="card-content">
-                            <h3>Digital Connect</h3>
-                            <p>Site institucional para agência digital focado em clean code, SEO e performance.</p>
-                            <div class="tech-stack">
-                                <span>Semântica</span>
-                                <span>BEM CSS</span>
-                                <span>Mobile First</span>
-                            </div>
-                            <div class="card-links">
-                                <a href="https://github.com/Lucassgsantos/digital-connect-landing-page" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                                <a href="https://lucassgsantos.github.io/digital-connect-landing-page/" target="_blank" style="margin-left: 1rem;">Ver Online <i class="fa-solid fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="card-image" style="background-color: #1c3d5e;">
-                            <i class="fa-solid fa-truck-monster fa-3x" style="color: white;"></i>
-                        </div>
-                        <div class="card-content">
-                            <h3>CredPesados</h3>
-                            <p>Landing Page financeira para crédito de veículos pesados, focada em conversão e usabilidade.</p>
-                            <div class="tech-stack">
-                                <span>Landing Page</span>
-                                <span>Forms</span>
-                                <span>CSS3</span>
-                            </div>
-                            <div class="card-links">
-                                <a href="https://github.com/Lucassgsantos/credpesados-landing-page" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                                <a href="https://lucassgsantos.github.io/credpesados-landing-page/" target="_blank" style="margin-left: 1rem;">Ver Online <i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="https://lucassgsantos.github.io/nba-store-br/" target="_blank" style="margin-left: 1rem;">Demo <i class="fa-solid fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </article>
@@ -148,23 +169,38 @@
         <section id="skills" class="skills section">
             <div class="container">
                 <h2 class="section-title">Tecnologias</h2>
-                <div class="skills-grid">
-                    <div class="skill-item" style="border-color: #38bdf8; color: #fff;">
-                        <i class="fa-brands fa-react" style="color: #38bdf8;"></i> React.js
+
+                <div class="skills-category">
+                    <h3 class="skills-label">Front-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fa-brands fa-react" style="color: #38bdf8;"></i> React</div>
+                        <div class="skill-item"><i class="fa-solid fa-code" style="color: #3178c6;"></i> TypeScript</div>
+                        <div class="skill-item"><i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript</div>
+                        <div class="skill-item"><i class="fa-solid fa-wind" style="color: #06b6d4;"></i> Tailwind CSS</div>
+                        <div class="skill-item"><i class="fa-brands fa-html5" style="color: #e34f26;"></i> HTML5</div>
+                        <div class="skill-item"><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i> CSS3</div>
                     </div>
-                    <div class="skill-item">
-                        <i class="fa-solid fa-code" style="color: #3178c6;"></i> TypeScript
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-label">Back-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fa-brands fa-node-js" style="color: #68a063;"></i> Node.js</div>
+                        <div class="skill-item"><i class="fa-solid fa-server" style="color: #888;"></i> Express</div>
+                        <div class="skill-item"><i class="fa-solid fa-database" style="color: #47a248;"></i> MongoDB</div>
+                        <div class="skill-item"><i class="fa-brands fa-java" style="color: #ed8b00;"></i> Java</div>
+                        <div class="skill-item"><i class="fa-solid fa-database" style="color: #4479a1;"></i> MySQL</div>
                     </div>
-                    <div class="skill-item">
-                        <i class="fa-solid fa-wind" style="color: #06b6d4;"></i> Tailwind CSS
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-label">Ferramentas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fa-brands fa-git-alt" style="color: #f05032;"></i> Git</div>
+                        <div class="skill-item"><i class="fa-brands fa-github"></i> GitHub</div>
+                        <div class="skill-item"><i class="fa-solid fa-terminal" style="color: #4ec9b0;"></i> Linux</div>
+                        <div class="skill-item"><i class="fa-solid fa-cube" style="color: #007acc;"></i> VS Code</div>
                     </div>
-                    
-                    <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5</div>
-                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
-                    <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
-                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i> Git</div>
-                    <div class="skill-item"><i class="fa-brands fa-github"></i> GitHub</div>
-                    <div class="skill-item"><i class="fa-solid fa-mobile-screen"></i> Responsividade</div>
                 </div>
             </div>
         </section>
@@ -173,13 +209,12 @@
     <footer id="contato" class="footer">
         <div class="container">
             <h2>Vamos trabalhar juntos?</h2>
-            <p>Estou disponível para novos projetos e oportunidades.</p>
-            
+            <p>Aberto a novos projetos e oportunidades.</p>
+
             <div class="social-links">
                 <a href="https://github.com/Lucassgsantos" target="_blank" title="GitHub">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                
                 <a href="https://www.linkedin.com/in/lucaspinheirodev" target="_blank" title="LinkedIn">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
@@ -191,7 +226,7 @@
                 </a>
             </div>
 
-            <p class="copyright">&copy; 2026 Lucas Santos. Code with ❤️.</p>
+            <p class="copyright">&copy; 2026 Lucas Santos</p>
         </div>
     </footer>
 
