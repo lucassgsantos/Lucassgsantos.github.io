@@ -1,29 +1,41 @@
-# Lucas Pinheiro | Portfolio
+# Portfólio — Lucas Pinheiro
 
-Portfolio pessoal como desenvolvedor Full Stack. Layout clean, com projetos principais, tecnologias alinhadas a desenvolvimento web e interesses em GRC, ciberseguranca, dashboards e automacoes.
+Portfólio de Lucas Pinheiro construído com **Next.js**, **TypeScript** e **Tailwind CSS**. O site é exportado estaticamente e reúne aplicações web, APIs, automações e projetos de dados.
 
-Repositorio: [lucasppinheiro/portfolio](https://github.com/lucasppinheiro/portfolio)
+## Stack
 
-## Conteudo
+- Next.js 16 com App Router e export estático
+- React 19 e TypeScript
+- Tailwind CSS 4
+- Lucide React
+- GitHub Pages via workflow manual/automático no push da branch `main`
 
-- **Home:** apresentacao e links para GitHub/projetos
-- **Projetos:** CineSearch, AcessaMapa, BarberBook, Futebol Dashboard, E-commerce, Task Management, Mini Lang
-- **Tecnologias:** HTML5, CSS3, JavaScript, React, Vue.js, Node.js e Python
-- **Interesses profissionais:** GRC, ciberseguranca, dashboards, automacoes e APIs
-- **Contato:** GitHub, LinkedIn e e-mail
+## Desenvolvimento
 
-## Stack do site
+```bash
+npm install
+npm run dev
+```
 
-- HTML5, CSS3
-- Google Fonts
-- Font Awesome
+Abra [http://localhost:3000](http://localhost:3000).
 
-## Como rodar
+## Build de produção
 
-Abra o `index.html` no navegador ou acesse [lucasppinheiro.github.io/portfolio](https://lucasppinheiro.github.io/portfolio).
+```bash
+npm run build
+```
 
-## Contato
+O resultado é gerado em `out/`. Para o GitHub Pages, a configuração aplica automaticamente o caminho `/portfolio` durante o build do workflow.
 
-- [LinkedIn](https://www.linkedin.com/in/lucaspinheirodev)
-- [GitHub](https://github.com/lucasppinheiro)
-- lucas.gabrielpnr@gmail.com
+## Estrutura
+
+```text
+src/
+  app/          rotas, layout e estilos globais
+  components/   componentes reutilizáveis da interface
+  data/         conteúdo tipado dos projetos
+```
+
+## Projetos destacados
+
+AcessaMapa, Futebol Dashboard, Auditor de Documentos, Caderno de Receitas, CineSearch e Sales API.

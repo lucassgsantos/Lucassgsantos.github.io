@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lucas Pinheiro — Desenvolvedor Full Stack. Projetos em aplicações web, APIs, automação e dados.">
+  <meta name="theme-color" content="#07111f">
+  <title>Lucas Pinheiro | Desenvolvedor Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início">LP<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navegacao"><span></span><span></span><span></span><span class="sr-only">Abrir menu</span></button>
+      <nav id="navegacao" class="nav" aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="nav-cta">Contato <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Disponível para oportunidades</p>
+          <h1>Desenvolvimento Full Stack para aplicações web e APIs.</h1>
+          <p class="hero-text">Sou Lucas Pinheiro, desenvolvedor Full Stack. Trabalho com interfaces, serviços e automações para transformar uma ideia em um produto funcional e fácil de manter.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Conhecer projetos <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+            <a class="button button-quiet" href="https://github.com/lucasppinheiro" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          </div>
+          <p class="hero-facts">React · TypeScript · Node.js · .NET · Java · Python</p>
+        </div>
+      </div>
+    </section>
+    <section id="projetos" class="projects section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> Seleção de trabalhos</p><h2>Projetos em destaque</h2></div>
+          <p>Produtos completos, com decisões de engenharia claras e código aberto para explorar.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured tone-blue">
+            <div class="project-visual"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i><span>01</span></div>
+            <div class="project-content"><p class="project-type">Produto full stack</p><h3>AcessaMapa</h3><p>Plataforma colaborativa para consultar e contribuir com informações de acessibilidade urbana, com mapa opcional, filtros, moderação e permissões por perfil.</p><ul class="tags"><li>React</li><li>Express</li><li>MongoDB</li><li>JWT</li></ul><div class="project-links"><a href="https://acessamapa.onrender.com" target="_blank" rel="noopener noreferrer">Ver projeto <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/lucasppinheiro/mapa-acessibilidade" target="_blank" rel="noopener noreferrer" aria-label="Código do AcessaMapa"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+          <article class="project-card project-featured tone-sky">
+            <div class="project-visual"><i class="fa-solid fa-futbol" aria-hidden="true"></i><span>02</span></div>
+            <div class="project-content"><p class="project-type">Dados &amp; automação</p><h3>Futebol Dashboard</h3><p>Dashboard editorial do Brasileirão com dados da CBF, gráficos, comparador de clubes e atualização automatizada com validação antes da publicação.</p><ul class="tags"><li>Python</li><li>Flask</li><li>Chart.js</li><li>CI/CD</li></ul><div class="project-links"><a href="https://futebol-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer">Ver projeto <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/lucasppinheiro/futebol-dashboard" target="_blank" rel="noopener noreferrer" aria-label="Código do Futebol Dashboard"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+          <article class="project-card tone-violet">
+            <div class="project-visual"><i class="fa-solid fa-file-shield" aria-hidden="true"></i><span>03</span></div>
+            <div class="project-content"><p class="project-type">IA aplicada a GRC</p><h3>Auditor de Documentos</h3><p>Ferramenta de apoio à revisão documental com parser determinístico, regras explicáveis, proveniência por campo e caso público com dados sintéticos.</p><ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Vitest</li><li>Playwright</li></ul><div class="project-links"><a href="https://auditor-documentos-ia.vercel.app" target="_blank" rel="noopener noreferrer">Ver projeto <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/lucasppinheiro/auditor-documentos-ia" target="_blank" rel="noopener noreferrer" aria-label="Código do Auditor de Documentos"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+          <article class="project-card tone-orange">
+            <div class="project-visual"><i class="fa-solid fa-utensils" aria-hidden="true"></i><span>04</span></div>
+            <div class="project-content"><p class="project-type">PWA acessível</p><h3>Caderno de Receitas</h3><p>Catálogo de receitas brasileiras com busca, filtros, navegação por teclado, URLs compartilháveis, funcionamento offline e testes de acessibilidade.</p><ul class="tags"><li>React</li><li>TypeScript</li><li>PWA</li><li>axe</li></ul><div class="project-links"><a href="https://lucasppinheiro.github.io/caderno-de-receitas/" target="_blank" rel="noopener noreferrer">Ver projeto <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/lucasppinheiro/caderno-de-receitas" target="_blank" rel="noopener noreferrer" aria-label="Código do Caderno de Receitas"><i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+          <article class="project-card tone-red">
+            <div class="project-visual"><i class="fa-solid fa-film" aria-hidden="true"></i><span>05</span></div>
+            <div class="project-content"><p class="project-type">Aplicação web</p><h3>CineSearch</h3><p>Busca e visualização de filmes e séries usando TMDB, com API .NET 8, Swagger, health check e interface React com rotas de detalhes.</p><ul class="tags"><li>.NET 8</li><li>C#</li><li>React</li><li>Docker</li></ul><div class="project-links"><a href="https://github.com/lucasppinheiro/cinesearch" target="_blank" rel="noopener noreferrer">Ver código <i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+          <article class="project-card tone-yellow">
+            <div class="project-visual"><i class="fa-solid fa-chart-column" aria-hidden="true"></i><span>06</span></div>
+            <div class="project-content"><p class="project-type">API REST</p><h3>Sales API</h3><p>API para registrar vendas e consolidar desempenho de vendedores por período, organizada em camadas e coberta por testes automatizados.</p><ul class="tags"><li>Java</li><li>Spring Boot</li><li>JPA</li><li>JUnit</li></ul><div class="project-links"><a href="https://github.com/lucasppinheiro/sales-api" target="_blank" rel="noopener noreferrer">Ver código <i class="fa-brands fa-github" aria-hidden="true"></i></a></div></div>
+          </article>
+        </div>
+        <details class="more-projects"><summary>Mais projetos no GitHub <i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div><a href="https://github.com/lucasppinheiro/task-management" target="_blank" rel="noopener noreferrer">Task Flow</a><a href="https://github.com/lucasppinheiro/barbertime" target="_blank" rel="noopener noreferrer">BarberTime</a><a href="https://github.com/lucasppinheiro/ecommerce" target="_blank" rel="noopener noreferrer">ShopHub</a><a href="https://github.com/lucasppinheiro/mini-lang-interpreter" target="_blank" rel="noopener noreferrer">Mini Lang</a></div></details>
+      </div>
+    </section>
+    <section id="sobre" class="about section"><div class="container about-grid"><p class="eyebrow"><span></span> Como trabalho</p><div><h2>Da ideia à entrega, com clareza.</h2><p>Organizo cada projeto para que ele seja simples de usar e de manter. Isso passa por interfaces responsivas, APIs bem definidas, validações, testes e documentação quando fazem diferença.</p></div><div class="principles"><span>01 · Interfaces e experiência</span><span>02 · APIs e integrações</span><span>03 · Dados e automações</span><span>04 · Testes e qualidade</span></div></div></section>
+  </main>
+  <footer id="contato" class="footer"><div class="container footer-inner"><div><p class="eyebrow"><span></span> Vamos conversar</p><h2>Tem uma oportunidade<br>ou projeto em mente?</h2></div><div class="footer-links"><a class="email" href="mailto:lucas.gabrielpnr@gmail.com">lucas.gabrielpnr@gmail.com <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a><div><a href="https://www.linkedin.com/in/lucaspinheirodev" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/lucasppinheiro" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></div><div class="container copyright">© 2026 Lucas Pinheiro. Feito com HTML, CSS e atenção aos detalhes.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
